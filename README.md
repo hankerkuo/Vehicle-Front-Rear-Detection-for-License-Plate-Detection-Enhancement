@@ -15,11 +15,11 @@ $ &&make
 ```
 it is possible to modify the makefile in the darknet folder for further configs before compiling, for example, turning off GPU support, which you need to set the GPU=0 in the makefile, default will be GPU supported and turning on the cudnn. 
 
-## 2. Run pipiline_withFRD.py
+## 2. Run pipeline_withFRD.py
 if everything works well, this script will do license plate detection on our sample images, and the results will be in the output folder, some txt files will also be generated with license plate reassignment information.
 
 ## 3. To try on your own images
-modify line 26 in pipiline_withFRD.py
+modify line 26 in pipeline_withFRD.py
 ```
 input_dir = 'samples/kr'
 ```
