@@ -6,7 +6,7 @@ Vehicle-Front-Rear-Detection-for-License-Plate-Detection-Enhancement @ 2019 MITA
 Ubuntu 16.04, python 2.7.16, Keras 2.2.4, tensorflow 1.5.0 with GPU GTX1080
 
 # How to run
-This part will contain running a refined version of license plate detection process based on previos work proposed by Sergio Montazzolli Silva: https://github.com/sergiomsilva/alpr-unconstrained
+This part will contain running a refined version of license plate detection process based on the previos work proposed by Sergio Montazzolli Silva: https://github.com/sergiomsilva/alpr-unconstrained
 
 ## 1. Compile darknet
 compile the modified version of darknet in this repository, cd into the darknet directory and type
@@ -25,7 +25,7 @@ input_dir = 'samples/kr'
 ```
 let the input_dir be your folder which includes your own images. Then run it!
 
-# How to only utilize the front-rear detection
+# How to only utilize the Front-Rear Detection
 run the FRD.py script in the src folder, the results will be purely detecting and classifying vehicle's front part and rear part.
 ![FRD_results](https://user-images.githubusercontent.com/21314064/61181337-a76ce880-a614-11e9-934d-abeb87dfe568.jpg)
 
