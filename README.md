@@ -1,5 +1,5 @@
 # Vehicle-Front-Rear-Detection-for-License-Plate-Detection-Enhancement
-ehicle-Front-Rear-Detection-for-License-Plate-Detection-Enhancement @ 2019 MITA (International Conference on Multimedia Information Technology and Applications)
+Vehicle-Front-Rear-Detection-for-License-Plate-Detection-Enhancement @ 2019 MITA (International Conference on Multimedia Information Technology and Applications)
 ![result_sample](https://user-images.githubusercontent.com/21314064/61183160-11918780-a62d-11e9-9d20-8888df528094.jpg)
 
 # Testing environment
