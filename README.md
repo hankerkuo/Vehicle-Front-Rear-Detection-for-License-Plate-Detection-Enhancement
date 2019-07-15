@@ -9,7 +9,7 @@ Ubuntu 16.04, python 2.7.16, Keras 2.2.4, tensorflow 1.5.0 with GPU GTX1080
 This part will contain running a refined version of license plate detection process based on the previos work proposed by Sergio Montazzolli Silva: https://github.com/sergiomsilva/alpr-unconstrained
 
 ## 1. Compile darknet
-compile the modified version of darknet in this repository, cd into the darknet directory and type
+Compile the modified version of darknet in this repository, cd into the darknet directory and type
 ```
 $ &&make
 ```
@@ -22,16 +22,16 @@ $ bash get-networks.sh
 ```
 
 ## 3. Run pipeline_withFRD.py
-if everything works well, the script pipeline_withFRD.py will do license plate detection on our sample images, and the results will be in the output folder, some txt files will also be generated with license plate reassignment information.
+If everything works well, the script pipeline_withFRD.py will do license plate detection on our sample images, and the results will be in the output folder, some txt files will also be generated with license plate reassignment information.
 
 ## 4. To try on your own images
-modify line 26 in pipeline_withFRD.py
+Modify line 26 in pipeline_withFRD.py
 ```
 input_dir = 'samples/kr'
 ```
-let the input_dir be your folder which includes your own images. Then run it!
+let the input_dir be your folder which includes your own images. Run and that's yours!
 
 # How to only utilize the Front-Rear Detection
-run the FRD.py script in the src folder, the results will be purely detecting and classifying vehicle's front part and rear part.
+Run the FRD.py script in the src folder, the results will be purely detecting and classifying vehicle's front part and rear part.
 ![FRD_results](https://user-images.githubusercontent.com/21314064/61181337-a76ce880-a614-11e9-934d-abeb87dfe568.jpg)
 
