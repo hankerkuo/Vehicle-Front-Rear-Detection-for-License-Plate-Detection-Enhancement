@@ -1,5 +1,5 @@
 # Vehicle-Front-Rear-Detection-for-License-Plate-Detection-Enhancement
-[Vehicle-Front-Rear-Detection-for-License-Plate-Detection-Enhancement](https://harmony.cs.pusan.ac.kr/~nrlab/2019MITA/Vehicle-Front-Rear/MITA_2019_Vehicle-Front-Rear-Detection-for-License-Plate-Detection-Enhancement.pdf) @ 2019 MITA (International Conference on Multimedia Information Technology and Applications) by Shao-Heng Kuo, Jin-Eun Ok and Eui-Young Cha.
+[Vehicle-Front-Rear-Detection-for-License-Plate-Detection-Enhancement](https://drive.google.com/open?id=1_fjEAgBhQdqUdMInNPVEodBOAX1pyJtq) @ 2019 MITA (International Conference on Multimedia Information Technology and Applications) by Shao-Heng Kuo, Jin-Eun Ok and Eui-Young Cha.
 ![result_sample](https://user-images.githubusercontent.com/21314064/61183160-11918780-a62d-11e9-9d20-8888df528094.jpg)
 
 # Testing environment
