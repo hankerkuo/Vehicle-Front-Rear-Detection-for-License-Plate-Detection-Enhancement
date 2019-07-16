@@ -20,6 +20,7 @@ After compiling the darknet, use the bash script to download all the required mo
 ```
 $ bash get-networks.sh
 ```
+if the download link for our FRD weights is down, check [here](https://drive.google.com/open?id=1O18taeM0wS1kLBTowB64TyHFZmUq1Gxj) to download directly and decompress them to data/FRD/
 
 ## 3. Run pipeline_withFRD.py
 If everything works well, the script pipeline_withFRD.py will do license plate detection on our sample images, and the results will be in the output folder, some txt files will also be generated with license plate reassignment information.
