@@ -11,7 +11,7 @@ This part will contain running a refined version of license plate detection proc
 ## 1. Compile darknet
 Compile the modified version of darknet in this repository, cd into the darknet directory and type
 ```
-$ &&make
+$ make
 ```
 it is possible to modify the makefile in the darknet folder for further configs before compiling, for example, turning off GPU support, which you need to set the GPU=0 in the makefile, default will be GPU supported and turning on the cudnn. 
 
