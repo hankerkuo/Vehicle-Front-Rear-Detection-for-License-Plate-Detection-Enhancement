@@ -23,7 +23,7 @@ from darknet.python.darknet import detect
 if __name__ == '__main__':
 
 	# vehicle detection
-	input_dir = 'samples/kr'
+	input_dir = 'samples/overlap_case'
 	output_dir = 'output'
 
 	vehicle_threshold = .5
