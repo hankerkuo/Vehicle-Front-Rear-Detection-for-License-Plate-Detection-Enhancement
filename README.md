@@ -33,6 +33,6 @@ input_dir = 'samples/kr'
 let the input_dir be your folder which includes your own images. Run and that's yours!
 
 # How to only utilize the Front-Rear Detection
-Run the FRD.py script in the src folder, the results will be purely detecting and classifying vehicle's front part and rear part.
+Run the Front_Rear_Detect.py script, the results will be purely detecting and classifying vehicle's front part and rear part.
 ![FRD_results](https://user-images.githubusercontent.com/21314064/61181337-a76ce880-a614-11e9-934d-abeb87dfe568.jpg)
 
