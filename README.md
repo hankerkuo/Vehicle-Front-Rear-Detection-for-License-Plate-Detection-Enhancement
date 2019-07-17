@@ -28,7 +28,7 @@ If everything works well, the script pipeline_withFRD.py will do license plate d
 ## 4. To try on your own images
 Modify line 26 in pipeline_withFRD.py
 ```
-input_dir = 'samples/kr'
+input_dir = 'samples/overlap_case'
 ```
 let the input_dir be your folder which includes your own images. Run and that's yours!
 
