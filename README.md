@@ -1,6 +1,7 @@
 # Vehicle-Front-Rear-Detection-for-License-Plate-Detection-Enhancement
 [Vehicle-Front-Rear-Detection-for-License-Plate-Detection-Enhancement](https://drive.google.com/open?id=1_fjEAgBhQdqUdMInNPVEodBOAX1pyJtq) @ 2019 MITA (International Conference on Multimedia Information Technology and Applications) by Shao-Heng Kuo, Jin-Eun Ok and Eui-Young Cha.
-### A detector for detecting and classifying vehicle's front part and rear part  
+### A network for detecting and classifying vehicle's front part and rear part.
+Check our paper for further application on license plate detection by utilizing our model. 
 ![result_sample](https://user-images.githubusercontent.com/21314064/61183160-11918780-a62d-11e9-9d20-8888df528094.jpg)
 
 # Testing environment
