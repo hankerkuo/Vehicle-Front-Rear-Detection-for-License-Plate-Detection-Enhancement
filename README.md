@@ -15,7 +15,7 @@ Compile the modified version of darknet in this repository, cd into the darknet 
 ```
 $ make
 ```
-it is possible to modify the makefile in the darknet folder for further configs before compiling, for example, turning off GPU support, which you need to set the GPU=0 in the makefile, default will be GPU supported and turning on the cudnn. 
+it is possible to modify the makefile in the darknet folder for further configs before compiling, for example, turning off GPU support, which you need to set the GPU=0 in the makefile, default will be GPU supported and turning on the cudnn. If you wonder what is the difference between the origin darknet and the one in our repo, well, we just made it available for reading numpy array.
 
 ## 2. Get the models and weights
 After compiling the darknet, use the bash script to download all the required models and weights.
