@@ -31,6 +31,7 @@ def area_quadrilateral(plate_pts):
 				 area_triangle(plate_pts[:, 2], plate_pts[:, 3], plate_pts[:, 0])
 	return plate_area
 
+
 # check if a point is inside a quadrilateral
 def is_inside(plate_pts, single_pt):
 	assert (plate_pts.shape[0] == 2 and plate_pts.shape[1] == 4 and single_pt.shape[0] == 2)
