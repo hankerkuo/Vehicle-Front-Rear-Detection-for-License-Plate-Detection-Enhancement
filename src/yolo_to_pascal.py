@@ -24,9 +24,10 @@
 #         </bndbox>
 #     </object>
 # <annotation>
+from PIL import Image
+
 import os
 import xml.etree.cElementTree as ET
-from PIL import Image
 
 ANNOTATIONS_DIR_PREFIX = "/home/shaoheng/Documents/cars_label_FRNet/cars/foryolo_origin"
 

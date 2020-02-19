@@ -1,5 +1,7 @@
-import numpy as np
 from numpy.linalg import norm
+
+import numpy as np
+
 from WPOD_src.label import Label
 
 class Area:

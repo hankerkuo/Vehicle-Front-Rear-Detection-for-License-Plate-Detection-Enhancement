@@ -2,22 +2,24 @@
 FRD Net, the function 'detect' in darknet has been modified to be able to receive cv2.imread as an input
 see darknet.py for more information
 '''
+from os.path import splitext, basename, isdir
+from os import makedirs, remove
+
 import sys
 import cv2
 import numpy as np
 import traceback
-import src.quadrilateral_calculation as qucal
-import darknet.python.darknet as dn
-from src import FRD
-from WPOD_src.drawing_utils import draw_losangle
-from src.draw_BB import draw_bb
 
+from src import FRD
+from src.draw_BB import draw_bb
+from WPOD_src.drawing_utils import draw_losangle
 from WPOD_src.keras_utils import load_model, detect_lp
 from WPOD_src.label import Label, lwrite, lread, Shape
-from os.path import splitext, basename, isdir
-from os import makedirs, remove
 from WPOD_src.utils import crop_region, image_files_from_folder, im2single
 from darknet.python.darknet import detect
+
+import src.quadrilateral_calculation as qucal
+import darknet.python.darknet as dn
 
 
 if __name__ == '__main__':

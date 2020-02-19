@@ -1,11 +1,12 @@
 # this script is used to generate image augmentation
+from glob import glob
+from os.path import splitext, join, basename
+from imgaug import augmenters as iaa
+
 import cv2
 import numpy as np
-from glob import glob
-
-from os.path import splitext, join, basename
 import imgaug as ia
-from imgaug import augmenters as iaa
+
 ia.seed(1)
 
 '''

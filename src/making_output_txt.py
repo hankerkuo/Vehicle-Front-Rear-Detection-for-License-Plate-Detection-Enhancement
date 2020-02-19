@@ -1,11 +1,12 @@
-import darknet.python.darknet as dn
-import numpy as np
-from WPOD_src.label import Label
-
-from WPOD_src.utils import image_files_from_folder, crop_region
 from os.path import splitext, basename, join, isdir
 from os import mkdir
+
+import numpy as np
 import cv2
+
+from WPOD_src.label import Label
+from WPOD_src.utils import image_files_from_folder, crop_region
+import darknet.python.darknet as dn
 
 
 def do_fr(imgs_paths):

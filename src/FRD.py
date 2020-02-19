@@ -1,12 +1,14 @@
-import darknet.python.darknet as dn
+from os.path import splitext, basename, join
+
 import numpy as np
 import traceback
-from WPOD_src.label import Label
-
-from src.draw_BB import draw_bb
-from WPOD_src.utils import image_files_from_folder
-from os.path import splitext, basename, join
 import cv2
+
+from WPOD_src.label import Label
+from WPOD_src.utils import image_files_from_folder
+from src.draw_BB import draw_bb
+
+import darknet.python.darknet as dn
 
 # best:FRNet_YOLOv3_50000.weights & FRNet_YOLOv3_tiny_360000 (trained using k-means anchor)
 FR_weights = 'data/FRD/FRNet_YOLOv3_tiny_126000.weights'
