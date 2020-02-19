@@ -1,9 +1,11 @@
 # ref:https://blog.csdn.net/m_buddy/article/details/82926024
 # -*- coding=utf-8 -*-
+from glob import glob
+
 import os
 import sys
-from glob import  glob
 import numpy as np
+
 from kmeans import kmeans, avg_iou
 
 # path which includes both images and label folder
