@@ -38,3 +38,10 @@ let the input_dir be your folder which includes your own images. Run and that's 
 Run the Front_Rear_Detect.py script, the results will be purely detecting and classifying vehicle's front part and rear part.
 ![FRD_results](https://user-images.githubusercontent.com/21314064/61181337-a76ce880-a614-11e9-934d-abeb87dfe568.jpg)
 
+# About the dataset
+## We used the Cars Dataset images proposed in 3D Object Representations for Fine-Grained Categorization. Jonathan Krause, Michael Stark, Jia Deng, Li Fei-Fei. [dataset download site](https://ai.stanford.edu/~jkrause/cars/car_dataset.html)
+## For the annotation of bounding box in YOLO training format:
+[Training](https://drive.google.com/open?id=1ygqCUyxRPZ5x_6ZsgyZni4RxIeuUkiHq)
+[Testing (Validation)](https://drive.google.com/open?id=1V8XlS4gQt_KD5g02ctXxtZ49IZ1yfHnk)
+The file names refer to corresponding Train/Test file names in Cars Dataset.
+
