@@ -40,10 +40,10 @@ Run the Front_Rear_Detect.py script, the results will be purely detecting and cl
 
 # About the dataset
 ### 1. Images
-We used the Cars Dataset images proposed in 3D Object Representations for Fine-Grained Categorization. Jonathan Krause, Michael Stark, Jia Deng, Li Fei-Fei.<br/>
+We used the Cars Dataset proposed in 3D Object Representations for Fine-Grained Categorization. Jonathan Krause, Michael Stark, Jia Deng, Li Fei-Fei.<br/>
 [dataset download site](https://ai.stanford.edu/~jkrause/cars/car_dataset.html)
 ### 2. Annoations
-For the annotation of bounding box in YOLO training format:
+For the annotation of bounding box in YOLO training format:<br/>
 [Training](https://drive.google.com/open?id=1ygqCUyxRPZ5x_6ZsgyZni4RxIeuUkiHq)<br/>
 [Testing (Validation)](https://drive.google.com/open?id=1V8XlS4gQt_KD5g02ctXxtZ49IZ1yfHnk)<br/>
 The file names refer to corresponding Train/Test file names in Cars Dataset.
