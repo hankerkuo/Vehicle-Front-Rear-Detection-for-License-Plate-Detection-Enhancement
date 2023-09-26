@@ -8,7 +8,7 @@ Check our paper for further application on license plate detection by utilizing 
 Ubuntu 16.04, python 2.7.16, Keras 2.2.4, tensorflow 1.5.0 with GPU GTX1080
 
 # How to run
-This part will contain running a refined version of license plate detection process based on the previos work proposed by Sergio Montazzolli Silva: https://github.com/sergiomsilva/alpr-unconstrained
+This part will contain running a refined version of license plate detection process based on the previous work proposed by Sergio Montazzolli Silva: https://github.com/sergiomsilva/alpr-unconstrained
 
 ## 1. Compile darknet
 Compile the modified version of darknet in this repository, cd into the darknet directory and type
